@@ -1,0 +1,64 @@
+.form{
+    text-align: center;
+    font-family: Roboto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    .flex-container{
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+    strong{
+        color: #000;
+        line-height: normal;
+        font-size: 17px;
+    }
+    form{
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 366px;
+    }
+    input{
+        padding-left: 8px;
+        height: 39px;
+        border: 1px #000 solid;
+    }
+    input::placeholder{
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        color: #A0A0A0;
+    }
+    input:active, input:focus{
+        outline: none;
+    }
+    .first, .last{
+        width: 153px;
+    }
+    .emeil{
+        width: 100%;
+        display: block;
+    }
+    button{
+        transition: all 0.2s ease-in;
+        font-family: inherit;
+        background: #000;
+        color:#FFF;
+        border-radius: 100px;
+        margin-top: 16px;
+        height: 33px;
+        width: 115px;
+        border: none;
+        outline: none;
+    }
+    button:hover{
+        border: #A0A0A0 solid 1px ;
+        cursor: pointer;
+        background: #FFF;
+        color: #000;
+    }
+    button:active, button:focus{
+        outline: none;
+    }
+}

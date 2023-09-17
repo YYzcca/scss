@@ -1,0 +1,47 @@
+@import "./blocks/main-menu";
+@import "./blocks/header";
+@import "./blocks/sallers";
+@import "./blocks/card-text";
+@import "./blocks/features";
+@import "./blocks/interviews";
+@import "./blocks/form";
+@import "./blocks/footer";
+
+html, body {
+
+    font-family: Roboto, sans-serif;
+}
+
+.section-h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+}
+
+.flex-container{
+    display: flex;
+}
+
+a.default-a{
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: #000;
+    transition: scale 0.2s ease-in;
+}
+
+a.default-a:hover{
+    color: #474747;
+}
+
+.black-bg{
+    display: none;
+    background: #000;
+    opacity: 0.6;
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    z-index: 97;
+}
