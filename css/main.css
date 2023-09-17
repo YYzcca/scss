@@ -22,7 +22,7 @@
     transform: translateX(-300%);
     left: 0;
     top: 0;
-    height: 60%;
+    height: 580px;
     width: 230px;
     background: #FFF;
     z-index: 98;
@@ -235,11 +235,6 @@ header button:hover {
   border: #A0A0A0 solid 1px;
 }
 @media (max-width: 767px) {
-  header .header {
-    background-image: url(/img/headerImg.png);
-    background-position: right;
-    background-repeat: no-repeat;
-  }
   header .header-content {
     text-align: center;
     width: auto;
@@ -262,7 +257,7 @@ header button:hover {
 @media (max-width: 767px) {
   .header {
     background-image: url(/img/headerImg1111.png);
-    background-position: right 150px;
+    background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 30%;
   }
@@ -342,6 +337,14 @@ header button:hover {
   .sallers .cards-container .sal-1 + .sal-2 {
     padding-left: 30px;
   }
+}
+@media (max-width: 992px) and (max-width: 767px) {
+  .sallers .cards-container .sal-1 + .sal-2 {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 992px) {
   .sallers .cards-container .sal-3 {
     margin-top: 20px;
   }
@@ -514,6 +517,11 @@ header button:hover {
   line-height: normal;
   color: #000;
 }
+@media (max-width: 767px) {
+  .features h4 br {
+    display: none;
+  }
+}
 .features .circle-1 {
   background: #21F7EC;
 }
@@ -560,6 +568,11 @@ header button:hover {
   width: 288px;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .interviews .interviews-card {
+    margin-top: 30px;
+  }
+}
 .interviews strong {
   font-size: 22px;
   font-weight: 700;
@@ -577,6 +590,15 @@ header button:hover {
 }
 .interviews img {
   margin-bottom: 35px;
+}
+@media (max-width: 767px) {
+  .interviews p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .interviews img {
+    margin-bottom: 25px;
+  }
 }
 .interviews .interviews-bg {
   z-index: -1;
@@ -675,7 +697,7 @@ footer {
   font-family: Roboto;
   background-color: #000;
   padding-top: 51px;
-  padding-bottom: 48px;
+  padding-bottom: 60px;
 }
 footer .footer-content {
   display: flex;
@@ -687,8 +709,22 @@ footer .facebook, footer .instagram, footer .twitter {
 footer .footer-logo {
   position: absolute;
 }
+@media (max-width: 540px) {
+  footer .footer-logo {
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 footer a + .icns {
   margin-top: 78px;
+}
+@media (max-width: 540px) {
+  footer a + .icns {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+  }
 }
 footer .ic + .ic {
   margin-left: 20px;
@@ -717,6 +753,15 @@ footer .information h5 + a {
 footer .information a + a {
   margin-top: 12px;
 }
+@media (max-width: 540px) {
+  footer .information {
+    justify-content: center;
+    width: 100%;
+  }
+  footer .information h5 + a {
+    margin-top: 15px;
+  }
+}
 footer h5 {
   text-transform: uppercase;
   font-size: 14px;
@@ -733,6 +778,12 @@ footer .llc {
   color: #FFF;
 }
 
+@media (max-width: 767px) {
+  footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
 html, body {
   font-family: Roboto, sans-serif;
 }
