@@ -494,15 +494,6 @@ header button:hover {
   line-height: normal;
   margin-bottom: 69px;
 }
-.features .flex-container {
-  justify-content: space-between;
-}
-.features .flex-container + .flex-container {
-  margin-top: 111px;
-}
-.features .circle-card {
-  width: 338px;
-}
 .features .circle {
   height: 70px;
   width: 70px;
@@ -516,11 +507,6 @@ header button:hover {
   font-weight: 700;
   line-height: normal;
   color: #000;
-}
-@media (max-width: 767px) {
-  .features h4 br {
-    display: none;
-  }
 }
 .features .circle-1 {
   background: #21F7EC;
